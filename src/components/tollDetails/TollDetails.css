@@ -1,0 +1,42 @@
+/* TollDetails.css */
+
+/* Container for toll details */
+.TollDetails {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Heading for toll details */
+  .TollDetails h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* List of tolls */
+  .TollDetails ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Individual toll item */
+  .TollDetails li {
+    font-size: 18px;
+    color: #555;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Last toll item without border */
+  .TollDetails li:last-child {
+    border-bottom: none;
+  }
+  
